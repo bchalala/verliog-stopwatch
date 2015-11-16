@@ -1,0 +1,10 @@
+Exception at PC 0x0000000180071363
+Attemped to read address 0xFFFFFFFFFFFFFFFF
+Printing stacktrace...
+
+[0] (HSimPort::setIsConstrained+0xba3) [0x0x0000000180071363]
+[1] (HSimPort::setIsConstrained+0xba3) [0x0x0000000180071363]
+[2] (xsi_vlog_namedbase_pushprocess+0x1302) [0x0x000000018004c682]
+[3] (xsi_get_forkjoin_process_inside_subprogram+0x2d1e) [0x0x0000000180060cee]
+[4]  [0x0x00000000004027e5]
+Done

@@ -1,0 +1,63 @@
+//! **************************************************************************
+// Written by: Map P.68d on Fri Nov 13 11:55:48 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "btnR" LOCATE = SITE "D9" LEVEL 1;
+COMP "btnS" LOCATE = SITE "B8" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "led" BEL "ck/fivehundhz" BEL "minutes/val_5" BEL
+        "minutes/val_4" BEL "minutes/val_3" BEL "minutes/val_2" BEL
+        "minutes/val_1" BEL "minutes/val_0" BEL "minutes/last_back" BEL
+        "seconds/val_5" BEL "seconds/val_4" BEL "seconds/val_3" BEL
+        "seconds/val_2" BEL "seconds/val_1" BEL "seconds/val_0" BEL
+        "disp/counter_1" BEL "disp/counter_0" BEL "disp/an_3" BEL "disp/an_2"
+        BEL "disp/an_1" BEL "disp/an_0" BEL "disp/esel_3" BEL "disp/esel_2"
+        BEL "disp/esel_1" BEL "disp/esel_0" BEL "disp/display_seg_6" BEL
+        "disp/display_seg_5" BEL "disp/display_seg_4" BEL "disp/display_seg_3"
+        BEL "disp/display_seg_2" BEL "disp/display_seg_1" BEL
+        "disp/display_seg_0" BEL "ck/twohz" BEL "seconds/ovf" BEL "ck/onehz"
+        BEL "ck/onehzcounter" BEL "ck/twohzcounter_0" BEL "ck/twohzcounter_25"
+        BEL "ck/twohzcounter_24" BEL "ck/twohzcounter_23" BEL
+        "ck/twohzcounter_22" BEL "ck/twohzcounter_21" BEL "ck/twohzcounter_20"
+        BEL "ck/twohzcounter_19" BEL "ck/twohzcounter_18" BEL
+        "ck/twohzcounter_17" BEL "ck/twohzcounter_16" BEL "ck/twohzcounter_15"
+        BEL "ck/twohzcounter_14" BEL "ck/twohzcounter_13" BEL
+        "ck/twohzcounter_12" BEL "ck/twohzcounter_11" BEL "ck/twohzcounter_10"
+        BEL "ck/twohzcounter_9" BEL "ck/twohzcounter_8" BEL
+        "ck/twohzcounter_7" BEL "ck/twohzcounter_6" BEL "ck/twohzcounter_5"
+        BEL "ck/twohzcounter_4" BEL "ck/twohzcounter_3" BEL
+        "ck/twohzcounter_2" BEL "ck/twohzcounter_1" BEL "ck/fhundcounter_17"
+        BEL "ck/fhundcounter_16" BEL "ck/fhundcounter_15" BEL
+        "ck/fhundcounter_14" BEL "ck/fhundcounter_13" BEL "ck/fhundcounter_12"
+        BEL "ck/fhundcounter_11" BEL "ck/fhundcounter_10" BEL
+        "ck/fhundcounter_9" BEL "ck/fhundcounter_8" BEL "ck/fhundcounter_7"
+        BEL "ck/fhundcounter_6" BEL "ck/fhundcounter_5" BEL
+        "ck/fhundcounter_4" BEL "ck/fhundcounter_3" BEL "ck/fhundcounter_2"
+        BEL "ck/fhundcounter_1" BEL "ck/fhundcounter_0" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

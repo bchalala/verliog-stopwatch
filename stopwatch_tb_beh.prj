@@ -1,0 +1,6 @@
+verilog work "time_counter.v"
+verilog work "display.v"
+verilog work "clockdivider.v"
+verilog work "stopwatch.v"
+verilog work "stopwatch_tb.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

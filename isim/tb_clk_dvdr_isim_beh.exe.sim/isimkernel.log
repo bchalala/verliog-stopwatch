@@ -1,0 +1,28 @@
+Command line:
+   tb_clk_dvdr_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58591
+
+Wed Nov 04 15:14:37 2015
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 828.24 Meg
+
+ Total Signals          : 20
+ Total Nets             : 20
+ Total Signal Drivers   : 12
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 154
+
+ Total Simulation Time: 15.6157 sec
+
+ Current Memory Usage: 670.953 Meg
+
+Wed Nov 04 15:21:25 2015
+
